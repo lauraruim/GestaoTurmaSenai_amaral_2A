@@ -9,11 +9,11 @@
  */
 
  @font-face {
-    font-family: Mario;
-    src: url(Fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+    font-family: laura_fonte;
+    src: url(fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
  }
 
  body{
     color: var(--platinum);
-    font-family: Mario;
+    font-family: laura_fonte;
  }
