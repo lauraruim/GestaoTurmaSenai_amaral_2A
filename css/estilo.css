@@ -1,3 +1,19 @@
 @charset "UTF-8";
 @import "reset.css";
-@import "cores.css"
+@import "cores.css";
+
+/* @font-face{
+    font-family: fortnite:
+    src: url(fonts/fortnite/fortnite.otf)
+}
+ */
+
+ @font-face {
+    font-family: Mario;
+    src: url(Fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+ }
+
+ body{
+    color: var(--platinum);
+    font-family: Mario;
+ }
