@@ -24,9 +24,39 @@ body {
     font-family: Fortnite;
     background-color: var(--midnight-violet);
 }
-.tituloPrincipal{
+
+/* Span é uma tag para separa a letra e mudar de cor */
+.tituloPrincipal span{
     text-align: center;
+    color: aliceblue;
 }
+
+/* nth-child(Número da letra) serve para mudar cada letra */
+.tituloPrincipal span:nth-child(1){
+    text-align: center;
+    color: aqua;
+}
+
+.tituloPrincipal span:nth-child(2){
+    text-align: center;
+    color: black;
+}
+
+.tituloPrincipal span:nth-child(3){
+    text-align: center;
+    color: blue;
+}
+
+.tituloPrincipal span:nth-child(4){
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.tituloPrincipal span:nth-child(5){
+    text-align: center;
+    color: rgb(255, 0, 221);
+}
+
 .img-banner {
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +78,23 @@ header {
     padding: 20px;
     border: 1px solid #000;
     background-color: aqua;
+}
+
+/* Muda quando voce passa o mouse por cima */
+
+.menu ul li:hover {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    background-color: rgb(22, 146, 146);
+}
+
+/* Clica no link e muda a cor da letra */
+.menu ul li a:visited {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    background-color: rgb(255, 0, 0);
 }
 
 section {
